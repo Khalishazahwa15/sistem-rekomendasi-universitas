@@ -1,6 +1,7 @@
+# Linked List untuk riwayat rekomendasi (LIFO)
 class RecommendationNode:
     def __init__(self, data):
-        self.data = data
+        self.data = data # nama, kota, nilai, list_rekomendasi
         self.next = None
 
 class RecommendationHistoryLinkedList:
