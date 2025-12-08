@@ -8,8 +8,13 @@ class ThresholdNode:
 def build_threshold_tree():
     node0 = ThresholdNode(0, ["Telkom University", "BINUS University", "UMN"])
     node70 = ThresholdNode(70, ["UPN Veteran", "UIN", "Politeknik Negeri"])
-    node80 = ThresholdNode(80, ["UNILA", "UB", "UNDIP", "UNS"])
-    node90 = ThresholdNode(90, ["UI", "ITB", "UGM"])
+    node80 = ThresholdNode(80, ["Universitas Lampung (UNILA)",
+                                "Universitas Brawijaya (UB)",
+                                "Universitas Diponegoro (UNDIP)",
+                                "Universitas Sebelas Maret (UNS)"])
+    node90 = ThresholdNode(90, ["Universitas Indonesia (UI)",
+                                "Institut Teknologi Bandung (ITB)",
+                                "Universitas Gadjah Mada (UGM)"])
 
     node70.left = node0
     node80.left = node70
