@@ -13,9 +13,9 @@ def find_nearest_city_universities(kota_awal, universitas_per_kota):
     if kota in universitas_per_kota:
       return universitas_per_kota[kota]
 
-      for kota in universitas_per_kota:
-        if tetangga not in visited:
-          visited.add(tetangga)
-          q.append(tetangga)
+    for kota in universitas_per_kota:
+      if tetangga not in visited:
+        visited.add(tetangga)
+        q.append(tetangga)
 
   return ["Tidak ada data universitas terdekat untuk kota"]
